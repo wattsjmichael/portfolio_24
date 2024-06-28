@@ -15,7 +15,7 @@ const Timeline = () => {
     { date: 'Dec 2020', title: "Software Developer at Grant Us Funding", description: "Created a React and MongoDB solution, handled UI/UX, and wrote documentation." },
     { date: 'Mar 2021', title: "Virtual Reality Developer at PDXR", description: "Developed virtual maps for emergency use using various tools." },
     { date: 'Nov 2021', title: "Virtual Reality Developer at AK Preparedness", description: "Created VR life safety tours and managed multiple projects for various clients, overseeing upgrades of over 300 websites and managing a portfolio of 25+ clients." },
-    { date: 'Sept 2024', title: "Achieves my PMP!", description: "Achieve certification in Project Management Professional, and nailed that test!" },
+    { date: 'Sept 2024', title: "Receiving My PMP!", description: "Achieve certification in Project Management Professional, and nailed that test!" },
   ];
 
 
