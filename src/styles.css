@@ -1,0 +1,67 @@
+/* src/styles.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+main {
+  padding: 20px;
+  margin-top: 100px; /* Adjust for fixed navigation */
+  position: relative;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.scroll-indicator {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  color: #247770;
+  font-size: 1.2em;
+  z-index: 1000;
+}
+
+.scroll-indicator p {
+  margin: 0;
+}
+
+.scroll-indicator .line {
+  width: 15px;
+  height: 150px;
+  background-color: #247770;
+  margin: 15px auto 0 auto;
+  animation: scroll 1.5s infinite;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+

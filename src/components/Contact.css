@@ -1,0 +1,40 @@
+/* src/components/Contact.css */
+.contact {
+  background-color: #f7f9fc;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-list li {
+  margin: 0;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: #247770;
+  font-size: 1.2em;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
