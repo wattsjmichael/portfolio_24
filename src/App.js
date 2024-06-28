@@ -31,6 +31,7 @@ const App = () => {
         <main>
           <Switch>
             <Route path="/timeline" component={Timeline} />
+            <Route path="/" exact component={() => <div>Home Page</div>} />
           </Switch>
         </main>
         <Contact />
