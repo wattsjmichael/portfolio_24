@@ -1,6 +1,7 @@
 // src/App.js
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Header from './components/Header';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
@@ -23,6 +24,10 @@ const App = () => {
   return (
     <Router>
       <div className="App">
+        <Helmet>
+          <title>Michael Watts</title>
+          <meta name="description" content="Michael Watts - VR Developer & Project Manager" />
+        </Helmet>
         <Header />
         <div className="scroll-indicator">
           <p>SCROLL</p>
@@ -41,6 +46,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
