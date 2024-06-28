@@ -4,25 +4,21 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import Header from './components/Header';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
-import HomePage from './components/HomePage';
+import { initGA, logPageView } from './analytics';
 import './styles.css';
 
 const usePageViews = () => {
   const location = useLocation();
   useEffect(() => {
-    if (window.gtag) {
-      window.gtag('config', 'G-ZKJE5EH3BJ', {
-        page_path: location.pathname,
-      });
-    }
+    initGA();
+    logPageView();
   }, [location]);
 };
 
 const App = () => {
-  usePageViews();
-
   return (
     <Router>
+      <PageViewsHandler />
       <div className="App">
         <Header />
         <div className="scroll-indicator">
@@ -31,14 +27,18 @@ const App = () => {
         </div>
         <main>
           <Routes>
-            <Route path="/timeline" element={<Timeline />} />
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<Timeline />} />
           </Routes>
         </main>
         <Contact />
       </div>
     </Router>
   );
+};
+
+const PageViewsHandler = () => {
+  usePageViews();
+  return null;
 };
 
 export default App;
