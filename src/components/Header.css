@@ -4,9 +4,10 @@
   height: 80vh;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 50px;
+  justify-content: center;
+  padding: 0 20px;
   background-color: rgba(247, 249, 252, 0.85); /* Semi-transparent background */
   color: #333;
 }
@@ -14,25 +15,26 @@
 .header-background {
   position: absolute;
   top: 0;
-  left: 150px;
+  left: 0;
   width: 100%;
   height: 100%;
   z-index: 0;
 }
 
 .header-content {
-  max-width: 50%;
+  max-width: 90%;
   z-index: 1;
+  text-align: center;
 }
 
 .header h1 {
-  font-size: 3em;
+  font-size: 2em;
   color: #333;
   margin: 0;
 }
 
 .header p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 10px 0;
 }
 
@@ -43,10 +45,35 @@
 
 .header-image {
   z-index: 1;
+  margin-top: 20px;
 }
 
 .header-image img {
-  width: 150px;
+  width: 100px;
   border-radius: 50%;
   border: 5px solid #247770;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    padding: 0 50px;
+  }
+
+  .header-content {
+    max-width: 50%;
+    text-align: left;
+  }
+
+  .header h1 {
+    font-size: 3em;
+  }
+
+  .header p {
+    font-size: 1.5em;
+  }
+
+  .header-image img {
+    width: 150px;
+  }
 }
