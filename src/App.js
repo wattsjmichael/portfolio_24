@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import Header from './components/Header';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
+import { initGA, logPageView } from './analytics';
 import './styles.css';
 
 const usePageViews = () => {
