@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import { initGA, logPageView } from './analytics';
+import { Analytics } from "@vercel/analytics/react"
 import './styles.css';
 
 const usePageViews = () => {
@@ -20,6 +21,7 @@ const App = () => {
     <Router>
       <PageViewsHandler />
       <div className="App">
+      <Analytics />
         <Header />
         <div className="scroll-indicator">
           <p>SCROLL</p>
