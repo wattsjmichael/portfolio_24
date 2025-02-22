@@ -4,6 +4,7 @@ import './Timeline.css';
 
 const Timeline = () => {
   const events = [
+    { date: 'March 2025', title: "Obtain PMP", description: "Obtaining my PMP with the work I have done in VR in the last 5 years" },
     { date: 'Nov 2024', title: "Start Bahamut Design", description: "Indie Virtual Reality gaming studio, first tile, Fantasy Remnants is in production" },
     { date: 'Nov 2021', title: "Virtual Reality Developer at AK Preparedness", description: "Created VR life safety tours and managed multiple projects for various clients, overseeing upgrades of over 300 websites and managing a portfolio of 25+ clients." },
     { date: 'Mar 2021', title: "Virtual Reality Developer at PDXR", description: "Developed virtual maps for emergency use using various tools." },
