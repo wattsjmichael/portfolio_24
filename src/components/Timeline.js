@@ -4,19 +4,19 @@ import './Timeline.css';
 
 const Timeline = () => {
   const events = [
-    { date: 'March 2025', title: "Obtain PMP", description: "Obtaining my PMP with the work I have done in VR in the last 5 years" },
-    { date: 'Nov 2024', title: "Start Bahamut Design", description: "Indie Virtual Reality gaming studio, first tile, Fantasy Remnants is in production" },
-    { date: 'Nov 2021', title: "Virtual Reality Developer at AK Preparedness", description: "Created VR life safety tours and managed multiple projects for various clients, overseeing upgrades of over 600 websites and managing a portfolio of 50+ clients." },
-    { date: 'Mar 2021', title: "Virtual Reality Developer at PDXR", description: "Developed virtual maps for emergency use using various tools." },
-    { date: 'Dec 2020', title: "Software Developer at Grant Us Funding", description: "Created a React and MongoDB solution, handled UI/UX, and wrote documentation." },
-    { date: 'Apr 2020', title: "Sales and Marketing Specialist at Brewsnap", description: "Created AR experiences and networked with local breweries." },
-    { date: 'Nov 2019', title: "General Manager at Killer Burger", description: "Flipped burgers, managed a staff of 20+, ran day to day duties." },
-    { date: 'Apr 2019', title: "Project Coordinator at All Traffic Data Services", description: "Measured traffic data and worked with government officials for federal funding." },
-    { date: 'May 2018', title: "Recreation Director at Daybreak Youth Services", description: "Coordinated activities for youth, managed recreation calendar, and handled inventory." },
-    { date: 'May 2017', title: "General Manager at Sproos Taphouse and Wine Bar", description: "Organized events, handled day-to-day operations, and managed social media marketing." },
-    { date: 'Sep 2014', title: "Portland Manager at The Chill Foundation (Burton Snowboards)", description: "Added youth-development programs and partnered with local businesses to enhance the curriculum." },
-    { date: 'Sep 2013', title: "Teen Lead at Boys and Girls Club of SW WA", description: "Favorite part - Created a beekeeping program that ended up selling a jar of our honey for 5k!" },
-    { date: 'Sep 2013', title: "Bartender at LowBar", description: "Won 'Best Bartender in the State of Washingtion' according to BevMo! and Bacardi." },
+    { date: 'May 2025', title: "Obtain PMP Certification", description: "Working toward PMP based on 5 years of technical project management in immersive VR." },
+    { date: 'Nov 2024', title: "Launch Bahamut Design", description: "Indie VR game studio. First title, Fantasy Remnants, now in production." },
+    { date: 'Nov 2021', title: "VR Developer, AK Preparedness", description: "Led development of VR life safety tours for commercial clients. Managed 50+ accounts and delivered 600+ site upgrades." },
+    { date: 'Mar 2021', title: "VR Developer, PDXR", description: "Developed emergency-use virtual maps and interactive environments." },
+    { date: 'Dec 2020', title: "Software Developer, Grant Us Funding", description: "Built React + MongoDB app, led UI/UX, and created dev documentation." },
+    { date: 'Apr 2020', title: "Co-Founder, Brewsnap", description: "Built AR experiences for breweries and launched early bar coaster prototypes." },
+    { date: 'Nov 2019', title: "GM, Killer Burger", description: "Ran daily operations and managed a 20+ person team at a high-volume location." },
+    { date: 'Apr 2019', title: "Project Coordinator, All Traffic Data", description: "Collected traffic data and collaborated with DOTs on funding requests." },
+    { date: 'May 2018', title: "Recreation Director, Daybreak Youth", description: "Planned youth activities and oversaw recreational programs and supplies." },
+    { date: 'May 2017', title: "GM, Sproos Taphouse & Wine Bar", description: "Handled events, daily ops, and all social media marketing for a local hotspot." },
+    { date: 'Sep 2014', title: "Portland Manager, Chill Foundation (Burton)", description: "Expanded youth programs and built partnerships to support underserved teens." },
+    { date: 'Sep 2013', title: "Teen Lead, Boys and Girls Club SW WA", description: "Launched a beekeeping program — sold a $5K jar of honey at auction." },
+    { date: 'Sep 2013', title: "Bartender, LowBar", description: "Named 'Best Bartender in Washington' by BevMo! and Bacardi. No big deal." }
   ];
 
 
