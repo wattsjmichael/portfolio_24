@@ -4,8 +4,8 @@ import './Timeline.css';
 
 const Timeline = () => {
   const events = [
-    { date: 'May 2025', title: "Obtain PMP Certification", description: "Working toward PMP based on 5 years of technical project management in immersive VR." },
-    { date: 'Nov 2024', title: "Launch Bahamut Design", description: "Indie VR game studio. First title, Fantasy Remnants, now in production." },
+    { date: 'Sep 2025', title: "Obtain PMP Certification", description: "Working toward PMP based on 5 years of technical project management in immersive VR." },
+    { date: 'May 2025', title: "Launch Dadbod Studios", description: "Indie game studio. First title, Kiln, now in production." },
     { date: 'Nov 2021', title: "VR Developer, AK Preparedness", description: "Led development of VR life safety tours for commercial clients. Managed 50+ accounts and delivered 600+ site upgrades." },
     { date: 'Mar 2021', title: "VR Developer, PDXR", description: "Developed emergency-use virtual maps and interactive environments." },
     { date: 'Dec 2020', title: "Software Developer, Grant Us Funding", description: "Built React + MongoDB app, led UI/UX, and created dev documentation." },
